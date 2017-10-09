@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="工程">
+      <UniqueIdentifier>{33d7fb81-566f-4d53-9975-db1c41ee610b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="工程\IOCPClient">
+      <UniqueIdentifier>{a0eab840-4ad0-4c0f-8470-3f86fc942bec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="工程\LoginServer">
+      <UniqueIdentifier>{e2ba3dd7-e63a-4bde-83fb-3a1fd0b6c563}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="工程\父类">
+      <UniqueIdentifier>{60f5a2fc-0f4a-4e6f-9f0d-beb89a336bfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="工程\公共">
+      <UniqueIdentifier>{83e5fb4e-4a67-4ae9-bd15-176ef8befbaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="工程\核心子类">
+      <UniqueIdentifier>{5ef92956-ae00-4f40-81d0-4d96168b69ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="工程\缓冲区">
+      <UniqueIdentifier>{2edf7826-6516-4080-8f79-e721f4d72605}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="工程\即时消息">
+      <UniqueIdentifier>{1c2cdcc3-16f5-46cc-8e55-5f7db4a878b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="工程\远程进程窗口管理">
+      <UniqueIdentifier>{fc2db2b7-20df-46cb-b74b-181e70b37e8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="工程\远程终端">
+      <UniqueIdentifier>{0d9c1eec-52a4-481c-b4cd-7322076759e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="工程\远程桌面">
+      <UniqueIdentifier>{dd1a8c5a-29cd-4f94-b72e-a262af2f8197}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="杂项">
+      <UniqueIdentifier>{56e60c2d-4a13-4445-acca-8f9ed0343334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="杂项\头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="杂项\源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="杂项\资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="工程\远程文件">
+      <UniqueIdentifier>{f1d88c50-2265-48e3-a4e4-628fc874d5e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="工程\远程音频">
+      <UniqueIdentifier>{ceb7538e-cdd2-401c-87fe-e4c3be595c70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="工程\远程视频">
+      <UniqueIdentifier>{79b3fc2f-5797-41a3-ae56-eef771966ea5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="工程\远程服务">
+      <UniqueIdentifier>{7863f831-1313-4906-9303-cd8570e6ab34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="工程\远程注册表">
+      <UniqueIdentifier>{849720d7-45ac-4112-8a1b-df504961b057}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>杂项\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>杂项\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="IOCPClient.h">
+      <Filter>工程\IOCPClient</Filter>
+    </ClInclude>
+    <ClInclude Include="Buffer.h">
+      <Filter>工程\缓冲区</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginServer.h">
+      <Filter>工程\LoginServer</Filter>
+    </ClInclude>
+    <ClInclude Include="Manager.h">
+      <Filter>工程\父类</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemManager.h">
+      <Filter>工程\远程进程窗口管理</Filter>
+    </ClInclude>
+    <ClInclude Include="KernelManager.h">
+      <Filter>工程\核心子类</Filter>
+    </ClInclude>
+    <ClInclude Include="Common.h">
+      <Filter>工程\公共</Filter>
+    </ClInclude>
+    <ClInclude Include="TalkManager.h">
+      <Filter>工程\即时消息</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>杂项\头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellManager.h">
+      <Filter>工程\远程终端</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManager.h">
+      <Filter>工程\远程桌面</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenSpy.h">
+      <Filter>工程\远程桌面</Filter>
+    </ClInclude>
+    <ClInclude Include="CursorInfor.h">
+      <Filter>工程\远程桌面</Filter>
+    </ClInclude>
+    <ClInclude Include="zconf.h">
+      <Filter>工程\缓冲区</Filter>
+    </ClInclude>
+    <ClInclude Include="zlib.h">
+      <Filter>工程\缓冲区</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>工程\远程文件</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>工程\远程音频</Filter>
+    </ClInclude>
+    <ClInclude Include="Audio.h">
+      <Filter>工程\远程音频</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleGrabberCB.h">
+      <Filter>工程\远程视频</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoManager.h">
+      <Filter>工程\远程视频</Filter>
+    </ClInclude>
+    <ClInclude Include="VideoCodec.h">
+      <Filter>工程\远程视频</Filter>
+    </ClInclude>
+    <ClInclude Include="ServicesManager.h">
+      <Filter>工程\远程服务</Filter>
+    </ClInclude>
+    <ClInclude Include="RegisterManager.h">
+      <Filter>工程\远程注册表</Filter>
+    </ClInclude>
+    <ClInclude Include="RegisterOperation.h">
+      <Filter>杂项\头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>杂项\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoteClientDll.cpp">
+      <Filter>杂项\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>杂项\源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="IOCPClient.cpp">
+      <Filter>工程\IOCPClient</Filter>
+    </ClCompile>
+    <ClCompile Include="Buffer.cpp">
+      <Filter>工程\缓冲区</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginServer.cpp">
+      <Filter>工程\LoginServer</Filter>
+    </ClCompile>
+    <ClCompile Include="Manager.cpp">
+      <Filter>工程\父类</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemManager.cpp">
+      <Filter>工程\远程进程窗口管理</Filter>
+    </ClCompile>
+    <ClCompile Include="KernelManager.cpp">
+      <Filter>工程\核心子类</Filter>
+    </ClCompile>
+    <ClCompile Include="Common.cpp">
+      <Filter>工程\公共</Filter>
+    </ClCompile>
+    <ClCompile Include="TalkManager.cpp">
+      <Filter>工程\即时消息</Filter>
+    </ClCompile>
+    <ClCompile Include="ShellManager.cpp">
+      <Filter>工程\远程终端</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManager.cpp">
+      <Filter>工程\远程桌面</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenSpy.cpp">
+      <Filter>工程\远程桌面</Filter>
+    </ClCompile>
+    <ClCompile Include="CursorInfor.cpp">
+      <Filter>工程\远程桌面</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>工程\远程文件</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>工程\远程音频</Filter>
+    </ClCompile>
+    <ClCompile Include="Audio.cpp">
+      <Filter>工程\远程音频</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleGrabberCB.cpp">
+      <Filter>工程\远程视频</Filter>
+    </ClCompile>
+    <ClCompile Include="VideoManager.cpp">
+      <Filter>工程\远程视频</Filter>
+    </ClCompile>
+    <ClCompile Include="ServicesManager.cpp">
+      <Filter>工程\远程服务</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterManager.cpp">
+      <Filter>工程\远程注册表</Filter>
+    </ClCompile>
+    <ClCompile Include="RegisterOperation.cpp">
+      <Filter>杂项\源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ExportTable.def">
+      <Filter>杂项\源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="RemoteClientDll.rc">
+      <Filter>杂项\资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="msg.wav">
+      <Filter>杂项\资源文件</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>杂项</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="zlib.lib">
+      <Filter>杂项</Filter>
+    </Library>
+  </ItemGroup>
+</Project>

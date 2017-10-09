@@ -1,0 +1,77 @@
+﻿  stdafx.cpp
+  VideoManager.cpp
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\samplegrabbercb.h(76): warning C4244: “=”: 从“ULONG”转换到“WORD”，可能丢失数据
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\videocodec.h(96): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\videocodec.h(125): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1008): note: 参见“wcstombs”的声明
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\videomanager.cpp(134): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+  TalkManager.cpp
+  SystemManager.cpp
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\systemmanager.cpp(135): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\systemmanager.cpp(201): warning C4018: “<”: 有符号/无符号不匹配
+  ShellManager.cpp
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\shellmanager.cpp(42): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(90): note: 参见“strcat”的声明
+  ServicesManager.cpp
+  ScreenSpy.cpp
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\screenspy.cpp(106): warning C4244: “=”: 从“ULONG”转换到“WORD”，可能丢失数据
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\screenspy.cpp(186): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\screenspy.cpp(212): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\screenspy.cpp(228): warning C4018: “<”: 有符号/无符号不匹配
+  ScreenManager.cpp
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\screenmanager.cpp(200): warning C4018: “<”: 有符号/无符号不匹配
+  SampleGrabberCB.cpp
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\samplegrabbercb.h(76): warning C4244: “=”: 从“ULONG”转换到“WORD”，可能丢失数据
+  RemoteClientDll.cpp
+  RegisterOperation.cpp
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\registeroperation.cpp(76): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\registeroperation.cpp(113): warning C4305: “=”: 从“”到“char”截断
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\registeroperation.cpp(113): warning C4309: “=”: 截断常量值
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\registeroperation.cpp(128): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\registeroperation.cpp(182): warning C4305: “=”: 从“”到“char”截断
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\registeroperation.cpp(182): warning C4309: “=”: 截断常量值
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\registeroperation.cpp(217): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+  RegisterManager.cpp
+  Manager.cpp
+  LoginServer.cpp
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\loginserver.cpp(12): warning C4996: 'GetVersionExA': 被声明为已否决
+  c:\program files (x86)\windows kits\8.1\include\um\sysinfoapi.h(433): note: 参见“GetVersionExA”的声明
+  KernelManager.cpp
+  IOCPClient.cpp
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\iocpclient.cpp(58): warning C4996: 'inet_addr': Use inet_pton() or InetPton() instead or define _WINSOCK_DEPRECATED_NO_WARNINGS to disable deprecated API warnings
+  c:\program files (x86)\windows kits\8.1\include\um\winsock2.h(1850): note: 参见“inet_addr”的声明
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\iocpclient.cpp(196): warning C4244: “初始化”: 从“double”转换到“unsigned long”，可能丢失数据
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\iocpclient.cpp(238): warning C4018: “>=”: 有符号/无符号不匹配
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\iocpclient.cpp(240): warning C4018: “<”: 有符号/无符号不匹配
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\iocpclient.cpp(258): warning C4018: “<”: 有符号/无符号不匹配
+  FileManager.cpp
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\filemanager.cpp(96): warning C4244: “=”: 从“unsigned __int64”转换到“unsigned long”，可能丢失数据
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\filemanager.cpp(97): warning C4244: “=”: 从“unsigned __int64”转换到“unsigned long”，可能丢失数据
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\filemanager.cpp(206): warning C4307: “+”: 整型常量溢出
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\filemanager.cpp(203): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\filemanager.cpp(241): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\string.h(119): note: 参见“strcpy”的声明
+  CursorInfor.cpp
+  Common.cpp
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\samplegrabbercb.h(76): warning C4244: “=”: 从“ULONG”转换到“WORD”，可能丢失数据
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\videocodec.h(96): warning C4800: “BOOL”: 将值强制为布尔值“true”或“false”(性能警告)
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\videocodec.h(125): warning C4996: 'wcstombs': This function or variable may be unsafe. Consider using wcstombs_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10240.0\ucrt\stdlib.h(1008): note: 参见“wcstombs”的声明
+  Buffer.cpp
+  AudioManager.cpp
+  正在生成代码...
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\samplegrabbercb.h(142): warning C4715: “CSampleGrabberCB::BufferCB”: 不是所有的控件路径都返回值
+  正在编译...
+  Audio.cpp
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\audio.cpp(179): warning C4018: “<”: 有符号/无符号不匹配
+  正在生成代码...
+c:\users\马林\desktop\remote\remoteclient\remoteclientdll\audio.cpp(134): warning C4715: “CAudio::InitializeWareIn”: 不是所有的控件路径都返回值
+  dllmain.cpp
+    正在创建库 C:\Users\马林\Desktop\Remote\RemoteClient\Debug\RemoteClientDll.lib 和对象 C:\Users\马林\Desktop\Remote\RemoteClient\Debug\RemoteClientDll.exp
+LINK : warning LNK4098: 默认库“LIBCMT”与其他库的使用冲突；请使用 /NODEFAULTLIB:library
+  RemoteClientDll.vcxproj -> C:\Users\马林\Desktop\Remote\RemoteClient\Debug\RemoteClientDll.dll
